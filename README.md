@@ -38,6 +38,7 @@ This application allows users to search for the closest airports. Users can inpu
 - Python 3.x
 - Kivy
 - Geopy
+- folium
 
 ## Credits
 - This application was developed by [Ahmad Esmail](https://github.com/AhmadEsmail).
