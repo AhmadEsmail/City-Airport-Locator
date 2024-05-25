@@ -1,7 +1,7 @@
 # City Airport Locator App
 
 ## Description
-This application allows users to search for the closest airports. Users can input a city name and specify the number of airports to display. The application retrieves data from a database containing information about cities and airports, and it utilizes geolocation services to calculate distances and display maps.
+This application allows users to search for the closest airports(all kinds ofairports). Users can input a city name and specify the number of airports to display. The application retrieves data from a database containing information about cities and airports, and it utilizes geolocation services to calculate distances and display maps.
 
 ## Features
 - Display closest airports to a city
