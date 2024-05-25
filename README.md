@@ -1,10 +1,9 @@
 # Airport History App
 
 ## Description
-This application allows users to search for city history and view the closest airports. Users can input a city name and specify the number of airports to display. The application retrieves data from a database containing information about cities and airports, and it utilizes geolocation services to calculate distances and display maps.
+This application allows users to search for the closest airports. Users can input a city name and specify the number of airports to display. The application retrieves data from a database containing information about cities and airports, and it utilizes geolocation services to calculate distances and display maps.
 
 ## Features
-- Search for city history
 - Display closest airports to a city
 - Interactive map display
 - Save city data and airport distances
@@ -19,7 +18,7 @@ This application allows users to search for city history and view the closest ai
 2. Install the required dependencies:
 
     ```bash
-    pip install -r requirements.txt
+    pip install -r libraries.txt
     ```
 
 3. Run the application:
@@ -41,7 +40,7 @@ This application allows users to search for city history and view the closest ai
 - Geopy
 
 ## Credits
-- This application was developed by [Your Name](https://github.com/your-username).
+- This application was developed by [Ahmad Esmail](https://[https://github.com/AhmadEsmail]).
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
