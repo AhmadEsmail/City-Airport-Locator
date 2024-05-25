@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ebee015787e59e2c8148680abcd16289 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ebee015787e59e2c8148680abcd16289" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ebee015787e59e2c8148680abcd16289 = L.map(
+                "map_ebee015787e59e2c8148680abcd16289",
+                {
+                    center: [34.7333334, 36.7166667],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_353c588a7edaa1f7868355036285c7c8 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_353c588a7edaa1f7868355036285c7c8.addTo(map_ebee015787e59e2c8148680abcd16289);
+        
+    
+            var marker_124c7450739935f12343e8fb92cc8aba = L.marker(
+                [34.7333334, 36.7166667],
+                {}
+            ).addTo(map_ebee015787e59e2c8148680abcd16289);
+        
+    
+            var icon_e22dae3dbf54e0ecd2cec1af952dbfd3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_124c7450739935f12343e8fb92cc8aba.setIcon(icon_e22dae3dbf54e0ecd2cec1af952dbfd3);
+        
+    
+        var popup_162b812d6188595fd8ef49e73a9d8eaf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e3b6d87ccbbbb0eb3ff56fa315846cb = $(`<div id="html_3e3b6d87ccbbbb0eb3ff56fa315846cb" style="width: 100.0%; height: 100.0%;">City: homs</div>`)[0];
+                popup_162b812d6188595fd8ef49e73a9d8eaf.setContent(html_3e3b6d87ccbbbb0eb3ff56fa315846cb);
+            
+        
+
+        marker_124c7450739935f12343e8fb92cc8aba.bindPopup(popup_162b812d6188595fd8ef49e73a9d8eaf)
+        ;
+
+        
+    
+    
+            var marker_18095cac146871852dcd7a084ed3e4b3 = L.marker(
+                [34.589298248291016, 36.01129913330078],
+                {}
+            ).addTo(map_ebee015787e59e2c8148680abcd16289);
+        
+    
+            var icon_fe647683c3fd536fd3a41fff1f349515 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_18095cac146871852dcd7a084ed3e4b3.setIcon(icon_fe647683c3fd536fd3a41fff1f349515);
+        
+    
+        var popup_db36a025fb8375d7cc8fa86979ef668c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_490491dba00ff8615fc7b39ad17545ef = $(`<div id="html_490491dba00ff8615fc7b39ad17545ef" style="width: 100.0%; height: 100.0%;">Rene Mouawad Air Base (KYE)</div>`)[0];
+                popup_db36a025fb8375d7cc8fa86979ef668c.setContent(html_490491dba00ff8615fc7b39ad17545ef);
+            
+        
+
+        marker_18095cac146871852dcd7a084ed3e4b3.bindPopup(popup_db36a025fb8375d7cc8fa86979ef668c)
+        ;
+
+        
+    
+    
+            var circle_marker_0e05e01affd80f564425e3214db42283 = L.circleMarker(
+                [34.589298248291016, 36.01129913330078],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ebee015787e59e2c8148680abcd16289);
+        
+    
+            var poly_line_2a7b0d61b1e132d44b419abb874d7e5c = L.polyline(
+                [[34.7333334, 36.7166667], [34.589298248291016, 36.01129913330078]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebee015787e59e2c8148680abcd16289);
+        
+    
+            var marker_fb9d1dffd9f23d80d1f96ee2fadc745c = L.marker(
+                [34.661315824145504, 36.363982916650386],
+                {}
+            ).addTo(map_ebee015787e59e2c8148680abcd16289);
+        
+    
+            var div_icon_27ed0c656d91ca87f4fc9a02883946a5 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size: 14px; color: red;\u0027\u003e66.60 km\u003c/div\u003e"});
+            marker_fb9d1dffd9f23d80d1f96ee2fadc745c.setIcon(div_icon_27ed0c656d91ca87f4fc9a02883946a5);
+        
+    
+            var marker_f1ef770b0b11e36911cd12e38d27240b = L.marker(
+                [35.401100158691406, 35.948699951171875],
+                {}
+            ).addTo(map_ebee015787e59e2c8148680abcd16289);
+        
+    
+            var icon_e80e01e5b24ee27e7fe657026ea5d3b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f1ef770b0b11e36911cd12e38d27240b.setIcon(icon_e80e01e5b24ee27e7fe657026ea5d3b9);
+        
+    
+        var popup_2d37db76143ac39a96e82dae06607ab8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe0819cb922f2a88ff64c5160382c9dd = $(`<div id="html_fe0819cb922f2a88ff64c5160382c9dd" style="width: 100.0%; height: 100.0%;">Bassel Al-Assad International Airport (LTK)</div>`)[0];
+                popup_2d37db76143ac39a96e82dae06607ab8.setContent(html_fe0819cb922f2a88ff64c5160382c9dd);
+            
+        
+
+        marker_f1ef770b0b11e36911cd12e38d27240b.bindPopup(popup_2d37db76143ac39a96e82dae06607ab8)
+        ;
+
+        
+    
+    
+            var circle_marker_4bc5b469cec62d89e478f049e9a4a427 = L.circleMarker(
+                [35.401100158691406, 35.948699951171875],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ebee015787e59e2c8148680abcd16289);
+        
+    
+            var poly_line_52bf5661fbca21f365da006a7b51b20d = L.polyline(
+                [[34.7333334, 36.7166667], [35.401100158691406, 35.948699951171875]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebee015787e59e2c8148680abcd16289);
+        
+    
+            var marker_dd5eee00137b8143c0d16487020aa3db = L.marker(
+                [35.0672167793457, 36.33268332558593],
+                {}
+            ).addTo(map_ebee015787e59e2c8148680abcd16289);
+        
+    
+            var div_icon_df35cab42d97508446c189cb1b0f5791 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size: 14px; color: red;\u0027\u003e101.96 km\u003c/div\u003e"});
+            marker_dd5eee00137b8143c0d16487020aa3db.setIcon(div_icon_df35cab42d97508446c189cb1b0f5791);
+        
+</script>
+</html>
