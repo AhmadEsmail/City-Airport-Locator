@@ -1,0 +1,38 @@
+<AirportHistory>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: 10
+        spacing: 10
+
+        Label:
+            text: 'Search City History'
+            font_size: 24
+            size_hint_y: None
+            height: 50
+
+        TextInput:
+            id: city_name_input
+            multiline: False
+            size_hint_y: None
+            height: 40
+
+        Button:
+            text: 'Search'
+            size_hint_y: None
+            height: 50
+            on_press: root.search_city()
+
+        Button:
+            text: 'Back to Input'
+            size_hint_y: None
+            height: 50
+            on_press: root.switch_to_input_screen()
+
+        ScrollView:
+            GridLayout:
+                id: search_results_grid
+                cols: 1
+                size_hint_y: None
+                height: self.minimum_height
+                row_default_height: 40
+                spacing: 10

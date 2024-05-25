@@ -1,0 +1,47 @@
+<InputScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: 10
+        spacing: 10
+
+        Label:
+            text: 'Enter City Name:'
+            font_size: 18
+            size_hint_y: None
+            height: 30
+
+        TextInput:
+            id: city_name_input
+            multiline: False
+            size_hint_y: None
+            height: 40
+
+        Label:
+            text: 'Enter Number of Airports:'
+            font_size: 18
+            size_hint_y: None
+            height: 30
+
+        TextInput:
+            id: num_airport_input
+            multiline: False
+            input_filter: 'int'
+            size_hint_y: None
+            height: 40
+
+        BoxLayout:
+            size_hint_y: None
+            height: 50
+            spacing: 10
+
+            Button:
+                text: 'Show Map'
+                on_press: root.switch_to_map()
+
+            Button:
+                text: 'Save City'
+                on_press: root.find_city()
+
+            Button:
+                text: 'History'
+                on_press: root.switch_to_history()
