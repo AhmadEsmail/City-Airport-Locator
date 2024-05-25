@@ -40,7 +40,7 @@ This application allows users to search for the closest airports. Users can inpu
 - Geopy
 
 ## Credits
-- This application was developed by [Ahmad Esmail]([https://github.com/AhmadEsmail]).
+- This application was developed by [Ahmad Esmail](https://github.com/AhmadEsmail).
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
