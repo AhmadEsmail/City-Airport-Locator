@@ -1,4 +1,4 @@
 kivy
-kivy-garden
-pyserial
-kivy.garden.graph
+geopy
+pandas
+folium
