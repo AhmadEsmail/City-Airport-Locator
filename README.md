@@ -12,7 +12,7 @@ This application allows users to search for the closest airports(all kinds of ai
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/airport-history-app.git
+    https://github.com/AhmadEsmail/City-Airport-Locator.git
     ```
 
 2. Install the required dependencies:
